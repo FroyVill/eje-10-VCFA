@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Calculadora basica</title>
+    <link rel="stylesheet" href="CSS/eje-VCFA-10.css">
+</head>
+<body>
+    <div id="div-container">
+    
+        <h1 id="titulo">Calculadora basica</h1>
+    
+
+    <section>
+        <div id="entradas">
+        <input id="entrada1" type="text" value="0" style="  display: inline-block;">
+        <input id="entrada2" type="text" value="0"  style="  display: inline-block;">
+    </div>
+        </section>
+
+        <section id="resultado">
+            <div>
+            <h2>Resultado: <label id="res"> 0.0</label></h2>
+        </div>
+        </section>
+
+        <section>
+        <div id="div-botones">
+        <input id="btn-mas" type="button" value="+" style="display: inline-block;" onclick="sumaNumeros();">
+        <input id="btn-menos" type="button"value="-" style=" display: inline-block;" onclick="restaNumeros();">
+        <input id="btn-por" type="button" value="*"  style=" display: inline-block;"onclick="multiplicaNumeros();">
+        <input id="btn-entre" type="button" value="/" style=" display: inline-block;" onclick="divideNumeros();">
+    </div>
+        </section>
+    </div>
+    <script src="js/eje-VCFA-10.js"></script>
+</body>
+</html>
